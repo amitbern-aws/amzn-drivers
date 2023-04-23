@@ -47,6 +47,6 @@ body:
     id: documentation_description
     attributes:
       label: Documentation issue description
-      placeholder: Describe the documentation issue in detail
+      description: Describe the documentation issue in detail
     validations:
       required: true
