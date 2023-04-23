@@ -47,12 +47,3 @@ body:
       description: Describe the proposed solution, add related materials/links
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://aws.amazon.com/codeofconduct/)
-      options:
-        - label: I agree to follow AWS Code of Conduct
-    validations:
-      required: true

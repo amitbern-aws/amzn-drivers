@@ -113,8 +113,8 @@ body:
     id: additional_data
     attributes:
       label: Additional Data
-      description: Additional data that may be relevant (Region, Instance type, Instance ID, Driver statistics)
-      value: |
+      placeholder: |
+        Additional data that may be relevant (Region, Instance type, Instance ID, Driver statistics)
         1. Region = us-west-1
         2. Instance type = m6i.32xlarge
         3. Instance ID = i-0123456789abcdef0
@@ -131,12 +131,3 @@ body:
       render: shell
     validations:
       required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://aws.amazon.com/codeofconduct/)
-      options:
-        - label: I agree to follow AWS Code of Conduct
-    validations:
-      required: true
