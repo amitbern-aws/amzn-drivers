@@ -71,23 +71,23 @@ body:
     id: os_version
     attributes:
       label: OS Platform and Distribution
-      placeholder: "Linux 5.10.157-139.675.amzn2.x86_64"
       description: To check OS version run "uname -a"
+      placeholder: "Linux 5.10.157-139.675.amzn2.x86_64"
     validations:
       required: true
   - type: textarea
     id: bug_description
     attributes:
       label: Bug description
-      placeholder: Describe the problem in detail
+      description: Describe the problem in detail
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
       label: Reproduction steps
+      description: Steps required to reproduce your bug, please walk us through it step by step
       placeholder: |
-        Steps required to reproduce your bug, please walk us through it step by step.
         1.
         2.
         3.
@@ -99,22 +99,22 @@ body:
     id: expected
     attributes:
       label: Expected Behavior
-      placeholder: What were you expecting?
+      description: What were you expecting?
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
       label: Actual Behavior
-      placeholder: What happened instead?
+      description: What happened instead?
     validations:
       required: true
   - type: textarea
     id: additional_data
+    description: Additional_data that may be relevant
     attributes:
       label: Additional Data
       placeholder: |
-        Additional data that may be relevant (Region, Instance type, Instance ID, Driver statistics)
         1. Region = us-west-1
         2. Instance type = m6i.32xlarge
         3. Instance ID = i-0123456789abcdef0
@@ -127,7 +127,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output
+      placeholder: Paste here any relevant log output
       render: shell
     validations:
       required: false
