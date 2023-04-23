@@ -111,9 +111,9 @@ body:
       required: true
   - type: textarea
     id: additional_data
-    description: Additional_data that may be relevant
     attributes:
       label: Additional Data
+      description: Additional_data that may be relevant
       placeholder: |
         1. Region = us-west-1
         2. Instance type = m6i.32xlarge
