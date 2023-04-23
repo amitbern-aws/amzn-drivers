@@ -79,6 +79,6 @@ body:
     id: support_request
     attributes:
       label: Support request
-      placeholder: Ask a question regarding driver build/compilation/installation/run
+      description: Ask a question regarding driver build/compilation/installation/run
     validations:
       required: true
