@@ -1,6 +1,6 @@
 name: Support Request
 description: Ask a question or request support
-title: "[Support]: <Title>"
+title: "[Support]: "
 labels: ["support", "triage"]
 body:
   - type: markdown

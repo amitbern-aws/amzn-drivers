@@ -1,6 +1,6 @@
 name: Documentation Issue
 description: Report issues in our documentation
-title: "[Documentation]: <Title>"
+title: "[Documentation]: "
 labels: ["documentation", "triage"]
 body:
   - type: markdown

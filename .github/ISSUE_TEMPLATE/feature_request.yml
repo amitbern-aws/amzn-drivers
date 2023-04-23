@@ -1,6 +1,6 @@
 name: Feature Request
 description: Request new feature and code enhancement
-title: "[Feature]: <Title>"
+title: "[Feature]: "
 labels: ["feature", "triage"]
 body:
   - type: markdown
