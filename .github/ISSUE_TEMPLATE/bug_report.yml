@@ -51,7 +51,7 @@ body:
     id: driver_tag
     attributes:
       label: Driver Tag/Commit
-      placeholder: "ena_linux_2.8.3"
+      placeholder: "ena_linux_2.8.5-1-g22fca73"
       description: |
         You can check current driver tag/commit using "git describe --tags"
         Please test using the latest version to make sure your issue has not already been fixed
@@ -63,8 +63,8 @@ body:
       label: Custom Code
       description: Driver code was customized
       options:
-        - "Yes"
         - "No"
+        - "Yes"
     validations:
       required: true
   - type: textarea
@@ -82,20 +82,6 @@ body:
       placeholder: Describe the problem in detail
     validations:
       required: true
-  - type: textarea
-    id: additional_data
-    attributes:
-      label: Additional Data
-      description: Additional data that may be relevant (Region, Instance type, Instance ID, Driver statistics)
-      value: |
-        1. Region = us-west-1
-        2. Instance type = m6i.32xlarge
-        3. Instance ID = i-0123456789abcdef0
-        4. Driver statistics
-        ...
-      render: bash
-    validations:
-      required: false
   - type: textarea
     id: reproduce
     attributes:
@@ -123,6 +109,20 @@ body:
       placeholder: What happened instead?
     validations:
       required: true
+  - type: textarea
+    id: additional_data
+    attributes:
+      label: Additional Data
+      description: Additional data that may be relevant (Region, Instance type, Instance ID, Driver statistics)
+      value: |
+        1. Region = us-west-1
+        2. Instance type = m6i.32xlarge
+        3. Instance ID = i-0123456789abcdef0
+        4. Driver statistics
+        ...
+      render: bash
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:

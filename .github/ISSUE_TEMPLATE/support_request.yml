@@ -51,7 +51,7 @@ body:
     id: driver_tag
     attributes:
       label: Driver Tag/Commit
-      placeholder: "ena_linux_2.8.3"
+      placeholder: "ena_linux_2.8.5-1-g22fca73"
       description: |
         You can check current driver tag/commit using "git describe --tags"
         Please test using the latest version to make sure your issue has not already been fixed
@@ -63,8 +63,8 @@ body:
       label: Custom Code
       description: Driver code was customized
       options:
-        - "Yes"
         - "No"
+        - "Yes"
     validations:
       required: true
   - type: textarea
