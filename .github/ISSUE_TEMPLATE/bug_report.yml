@@ -86,8 +86,8 @@ body:
     id: reproduce
     attributes:
       label: Reproduction steps
-      description: "Steps required to reproduce your bug, please walk us through it step by step."
-      value: |
+      placeholder: |
+        Steps required to reproduce your bug, please walk us through it step by step.
         1.
         2.
         3.
